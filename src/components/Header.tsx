@@ -7,7 +7,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <img 
-            src="https://bibliotek.sundbyberg.se/image/layout_set_logo?img_id=358065&t=1735528159420" 
+            src="https://cdn-s3.axiell.com/sweden/haninge/images/logo-mobile.png" 
             alt="Bibliotek Sundbyberg"
             className="h-12"
           />
