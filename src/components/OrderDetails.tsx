@@ -4,8 +4,8 @@ import { RefundModal } from './RefundModal';
 
 export function OrderDetails() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const orderDate = "2024-03-15";
-  const orderNumber = "2024-0315-789";
+  const orderDate = "2025-01-09";
+  const orderNumber = "2025-0315-789";
   const quantity = 25;
   const pricePerBook = 192; // 4800 / 25
   const totalAmount = quantity * pricePerBook;
@@ -48,7 +48,7 @@ export function OrderDetails() {
 
         <div className="space-y-2">
           <div className="flex justify-between text-lg">
-            <span className="font-medium">Totalt att återbetala:</span>
+            <span className="font-medium">Totalt att Reklamera:</span>
             <span className="font-bold text-[#8c3a52]">{totalAmount} kr</span>
           </div>
           <button 
